@@ -157,7 +157,7 @@ Enhanced the live GitHub Pages site with **modern design, gradients, responsive 
 **Mukhtiar Ahmad**  
 Department of Computer Science  
 University of Engineering & Technology, Peshawar  
-📧 *[Your Email if you want to include]*  
+📧 *[24PWBCS1090@uetpeshawar.edu.pk]*  
 🌐 [GitHub Profile](https://github.com/mukhtiar-1090)
 
 ---
