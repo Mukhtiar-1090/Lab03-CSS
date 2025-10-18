@@ -1,0 +1,44 @@
+/* ---------------------------
+   1️⃣ BASIC SELECTORS (5)
+--------------------------- */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  padding: 20px;
+}
+
+h1 { color: #2c3e50; text-align: center; }
+p { color: #333; }
+.highlight { color: crimson; font-weight: bold; }
+#unique { background-color: #ecf0f1; padding: 10px; border-radius: 8px; }
+* { box-sizing: border-box; }
+
+/* ---------------------------
+   2️⃣ ATTRIBUTE SELECTORS (3)
+--------------------------- */
+a[target="_blank"] { color: darkblue; text-decoration: underline; }
+input[type="text"] { border: 2px solid #3498db; padding: 5px; }
+img[alt*="logo"] { width: 100px; }
+
+/* ---------------------------
+   3️⃣ COMBINATORS (4)
+--------------------------- */
+div p { color: green; }           /* Descendant */
+div > span { color: blue; }       /* Child */
+h2 + p { color: orange; }         /* Adjacent sibling */
+h3 ~ p { font-style: italic; }    /* General sibling */
+
+/* ---------------------------
+   4️⃣ PSEUDO-CLASSES (5)
+--------------------------- */
+a:hover { color: red; }
+input:focus { border-color: green; }
+li:first-child { color: blueviolet; }
+li:last-child { color: darkred; }
+p:nth-child(2) { background-color: #f1f1f1; }
+
+/* ---------------------------
+   5️⃣ PSEUDO-ELEMENTS (2)
+--------------------------- */
+p::first-letter { font-size: 30px; color: teal; }
+p::after { content: " 🌟"; }

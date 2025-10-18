@@ -1,0 +1,90 @@
+/* ---------------------------
+   General Page Styling
+--------------------------- */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  margin: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #374151;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+
+.intro {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+/* ---------------------------
+   1️⃣ Google Fonts
+--------------------------- */
+.poppins {
+  font-family: 'Poppins', sans-serif;
+  color: #2563eb;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+  color: #047857;
+}
+
+.playfair {
+  font-family: 'Playfair Display', serif;
+  color: #be123c;
+}
+
+/* ---------------------------
+   2️⃣ Font Size Demonstration
+--------------------------- */
+.size-px { font-size: 20px; }
+.size-em { font-size: 1.5em; }
+.size-rem { font-size: 1.8rem; }
+.size-percent { font-size: 120%; }
+
+/* ---------------------------
+   3️⃣ Text Alignment Examples
+--------------------------- */
+.align-left { text-align: left; }
+.align-center { text-align: center; }
+.align-right { text-align: right; }
+.align-justify { text-align: justify; }
+
+/* ---------------------------
+   4️⃣ Text Decoration & Transformation
+--------------------------- */
+.underline { text-decoration: underline; }
+.overline { text-decoration: overline; }
+.line-through { text-decoration: line-through; }
+
+.uppercase { text-transform: uppercase; }
+.lowercase { text-transform: lowercase; }
+.capitalize { text-transform: capitalize; }
+
+/* ---------------------------
+   5️⃣ Text Shadow Effects
+--------------------------- */
+.shadow-light {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.shadow-dark {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.shadow-glow {
+  color: #1d4ed8;
+  text-shadow: 0 0 10px rgba(37, 99, 235, 0.7);
+}
